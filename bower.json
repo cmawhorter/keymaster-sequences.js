@@ -1,6 +1,6 @@
 {
   "name": "keymaster-sequences.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Add keyboard sequence support to the awesome keymaster.js",
   "main": "dist/keymaster-sequences.js",
   "author": {
