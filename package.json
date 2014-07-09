@@ -1,5 +1,5 @@
 {
-  "name": "keymaster-sequences.js",
+  "name": "keymaster-sequences",
   "version": "0.0.1",
   "description": "Add keyboard sequence support to the awesome keymaster.js",
   "main": "dist/keymaster-sequences.js",
@@ -8,7 +8,7 @@
     "name": "Cory Mawhorter",
     "email": "cory.mawhorter@gmail.com"
   },
-  "repository": "cmawhorter/keymaster-sequences.js",
+  "repository": "https://github.com/cmawhorter/keymaster-sequences.js",
   "license": "MIT",
   "engines": {
     "node": ">= 0.10.0"
@@ -19,7 +19,6 @@
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-uglify": "^0.5.0",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-jscs": "^0.6.1",
     "grunt-lintspaces": "^0.5.1",
     "jit-grunt": "^0.7.0",
     "jshint-stylish": "^0.2.0",

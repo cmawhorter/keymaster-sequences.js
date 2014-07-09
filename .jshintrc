@@ -1,7 +1,7 @@
 {
   "node": true,
   "esnext": true,
-  "bitwise": true,
+  "bitwise": false,
   "camelcase": true,
   "curly": true,
   "eqeqeq": true,
@@ -17,5 +17,6 @@
   "strict": true,
   "trailing": true,
   "smarttabs": true,
-  "white": true
+  "white": true,
+  "laxcomma": true
 }
