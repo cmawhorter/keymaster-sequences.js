@@ -1,3 +1,0 @@
-[submodule "keymaster"]
-	path = keymaster
-	url = git@github.com:cmawhorter/keymaster.git
