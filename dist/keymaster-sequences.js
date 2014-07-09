@@ -2,6 +2,7 @@
  *  Release on: 2014-07-08
  *  Copyright (c) 2014 Cory Mawhorter
  *  Licensed MIT */
+/*global document */
 (function (global, doc, keymaster) {
   'use strict';
 
@@ -112,4 +113,4 @@
   else {
     console.warn('keymaster-sequences.js could not found keymaster.js');
   }
-})(this, this.document, this.key);
+})(window, document, window.key);
