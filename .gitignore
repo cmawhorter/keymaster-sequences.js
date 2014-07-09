@@ -1,5 +1,5 @@
 node_modules
-./dist
+# ./dist
 test/temp
 tmp
 docs
@@ -7,4 +7,3 @@ docs
 npm-debug.log
 coverage
 report
-test.html

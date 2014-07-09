@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script src="keymaster/keymaster.js"></script>
+<script src="lib/keymaster-sequences.js"></script>
+
+<h1>Key sequences for keymaster.js</h1>
+<p>Open up the console.</p>
+
+<h2>Sequences on this test page:</h2>
+<ul>
+  <li>konami code</li>
+  <li>hello world</li>
+  <li>abc</li>
+  <li>copy and paste (ctrl+c then ctrl+v)</li>
+</ul>
+
+<script>
+var handler = function(name) {
+  return function(evt, handler, sequence) {
+    console.group(name);
+    console.log('Event', evt);
+    console.log('keymaster handler', handler);
+    console.log('sequence', sequence);
+    console.groupEnd();
+  };
+};
+
+key.sequence('up up down down left right left right b a', handler('konami mothafuckassss'));
+
+key.sequence('h e l l o w o r l d', handler('why, hello there.'));
+
+key.sequence('a b c', handler('1 2 3...'));
+
+key.sequence('ctrl+c ctrl+v', handler('copy and paste'));
+
+key.sequence('b shift+a', handler('b shift+a'));
+
+key.sequence('b ctrl+shift+a', handler('b ctrl+shift+a'));
+</script>
+</body>
+</html>
