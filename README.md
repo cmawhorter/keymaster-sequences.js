@@ -6,7 +6,7 @@ Do you use keymaster.js? Do you want support for key sequences?  (Like gmail...)
 
 This script plugs into keymaster to provide you with support for chaining keypresses together.
 
-Demo: http://jsfiddle.net/ggZxB/
+Demo: http://jsfiddle.net/ggZxB/1/
 
 ## An example
 
