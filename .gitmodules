@@ -1,0 +1,3 @@
+[submodule "keymaster"]
+	path = keymaster
+	url = https://github.com/madrobby/keymaster.git
