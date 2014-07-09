@@ -47,6 +47,8 @@ Only single shortcuts are currently supported.  You can't do `key.sequence('ctrl
 
 No unbinding... but when was the last time you cleaned up your event handlers?  Workaround: You can use either `key.deleteScope(scope)` or `key.unbind(shortcut)` on all the individual shortcuts.
 
+Timeout between shortcuts is currently hardcoded to 1000ms.
+
 I've only run the tests on Chrome as of this minute.  YMMV.
 
 
