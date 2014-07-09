@@ -1,0 +1,20 @@
+{
+  "name": "keymaster-sequences.js",
+  "version": "0.0.0",
+  "description": "Add keyboard sequence support to the awesome keymaster.js",
+  "main": "dist/keymaster-sequences.js",
+  "author": {
+    "name": "Cory Mawhorter",
+    "email": "cory.mawhorter@gmail.com"
+  },
+  "repository": "cmawhorter/keymaster-sequences.js",
+  "license": "MIT",
+  "dependencies": {},
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
