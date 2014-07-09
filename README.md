@@ -39,17 +39,12 @@ The handler is passed the event and "handler" object that keymaster passes, alon
 
 ## Caveats / Gotchas
 
-Injects itself into keymaster's `window.key` object.  If you need to use noConflict, include sequences before you call noConflict.
-
-Modifier keys can't be used on their own.  This means you can't do `key.sequence('b shift')`.
-
-Only single shortcuts are currently supported.  You can't do `key.sequence('ctrl+a b,command+a b')` or `key.sequence(['ctrl+a b','command+a b'])`.  Support for adding this is pretty trivial, but I just haven't done it.
-
-No unbinding... but when was the last time you cleaned up your event handlers?  Workaround: You can use either `key.deleteScope(scope)` or `key.unbind(shortcut)` on all the individual shortcuts.
-
-Timeout between shortcuts is currently hardcoded to 1000ms.
-
-I've only run the tests on Chrome as of this minute.  YMMV.
+* Injects itself into keymaster's `window.key` object.  If you need to use noConflict, include sequences before you call noConflict.
+* Modifier keys can't be used on their own.  This means you can't do `key.sequence('b shift')`.
+* Only single shortcuts are currently supported.  You can't do `key.sequence('ctrl+a b,command+a b')` or `key.sequence(['ctrl+a b','command+a b'])`.  Support for adding this is pretty trivial, but I just haven't done it.
+* No unbinding... but when was the last time you cleaned up your event handlers?  Workaround: You can use either `key.deleteScope(scope)` or `key.unbind(shortcut)` on all the individual shortcuts.
+* Timeout between shortcuts is currently hardcoded to 1000ms.
+* I've only run the tests on Chrome as of this minute.  YMMV.
 
 
 ## Tests
