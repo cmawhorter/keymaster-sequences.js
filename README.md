@@ -56,7 +56,7 @@ The second are a few sequences tests.  More could definitely be added.
 
 ## The MIT License (MIT)
 
-Copyright (c) 2014 Cory Mawhorter
+Copyright (c) 2015 Cory Mawhorter
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
